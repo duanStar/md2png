@@ -74,18 +74,19 @@ Usage:
   $ md2png <input>
 
 Commands:
-  <input>  Sample cli program
+  <input>  md文件路径
 
 For more info, run any command with the `--help` flag:
   $ md2png --help
 
 Options:
-  --host <host>  Sample options
-  -h, --help     Display this message
-  -v, --version  Display version number
+  -o, --output <output>  输出图片路径
+  -w, --width <width>    输出图片宽度
+  -h, --help             Display this message
+  -v, --version          Display version number
 
 Examples:
-  $ md2png w --host zce.me
+  $ md2png ./README.md -o ./dist/README.png -w 500
 ```
 
 ## Related
