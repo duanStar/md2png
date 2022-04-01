@@ -3,3 +3,7 @@ coverage
 node_modules
 package-lock.json
 yarn.lock
+dist
+.md2pngrc
+.md2png.yml
+.md2png.json

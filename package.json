@@ -32,7 +32,11 @@
     ]
   },
   "dependencies": {
-    "cac": "^6.7.12"
+    "cac": "^6.7.12",
+    "cosmiconfig": "^7.0.1",
+    "marked": "^4.0.12",
+    "ora": "^5.4.1",
+    "puppeteer": "^13.5.2"
   },
   "devDependencies": {
     "jest": "27.5.1",
