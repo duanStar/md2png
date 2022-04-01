@@ -1,0 +1,47 @@
+{
+  "name": "md2png",
+  "version": "0.1.0",
+  "description": "Awesome node modules.",
+  "keywords": [
+    "md2png",
+    "cli",
+    "zce"
+  ],
+  "repository": "duanStar/md2png",
+  "license": "MIT",
+  "author": "Hongfei Duan <1715106673@qq.com> (https://github.com/duanStar)",
+  "main": "lib/index.js",
+  "bin": "bin/md2png.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "jest --coverage",
+    "prepare": "npm run lint && npm run test"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "dependencies": {
+    "cac": "^6.7.12"
+  },
+  "devDependencies": {
+    "jest": "27.5.1",
+    "standard": "16.0.4"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
